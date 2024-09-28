@@ -1,0 +1,101 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", system-ui;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.blod-card-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    border-radius: 10px;
+}
+
+.blog-card-container {
+    background-color: white;
+    max-width: 335px;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid hsl(0, 0%, 7%);
+}
+
+.learning-container-mini {
+    text-align: center;
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    width: 70px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.published-data {
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: hsl(0, 0%, 7%);
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-bottom: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.about-p {
+    width: 100%;
+    line-height: 1.5;
+    color: hsl(0, 0%, 42%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.profile-image-name-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.greg-profile-pic {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.name-last-name {
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 6px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 785px) {
+    .blog-card-container {
+        width: 80%;
+    }
+}
